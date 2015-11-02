@@ -3,3 +3,5 @@
 <% @messages.each do |message| %>
   <p>-<%= message.to %> <%= message.body %><p>
 <% end %>
+
+<%= link_to "Send a new message", new_message_path %>
